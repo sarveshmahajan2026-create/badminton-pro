@@ -1,0 +1,216 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgba(0,0,0,0.5);
+    flex-wrap: wrap;
+}
+
+nav h2 {
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.hero h1 {
+    font-size: 28px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* SECTION */
+.section {
+    padding: 25px 15px;
+    text-align: center;
+}
+
+/* TITLES */
+.section-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #ffd700;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* CARD CONTAINER */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* CARDS */
+.card {
+    width: 90%;
+    max-width: 260px;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* PLAYER CARD */
+.player-card {
+    width: 90%;
+    max-width: 280px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.player-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* BUTTON */
+.btn {
+    padding: 10px 15px;
+    background: #00e6e6;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+}
+
+/* SELECT */
+select {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 90%;
+    max-width: 250px;
+}
+
+/* RESULT */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.result-card {
+    width: 90%;
+    max-width: 280px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+/* PLAYER HERO */
+.player-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.player-hero img {
+    width: 90%;
+    max-width: 280px;
+    border-radius: 12px;
+}
+
+.player-info {
+    margin-top: 15px;
+}
+
+/* LIST BOX */
+.list-box {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* IMAGE */
+.section img {
+    width: 90%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* DESKTOP IMPROVEMENT */
+@media (min-width: 768px) {
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .card {
+        width: 230px;
+    }
+
+    .player-card {
+        width: 260px;
+    }
+
+    .player-hero {
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .player-hero img {
+        width: 300px;
+    }
+
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ccc;
+}
