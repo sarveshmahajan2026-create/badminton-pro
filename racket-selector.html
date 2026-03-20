@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selector</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+<h2>🏸 Badminton Pro</h2>
+<a href="index.html">⬅ Back</a>
+</nav>
+
+<section class="section">
+
+<h1 class="title">🎯 Choose Your Racket</h1>
+
+<select id="budget">
+<option value="low">Low Budget</option>
+<option value="mid">Medium Budget</option>
+<option value="high">High Budget</option>
+</select>
+
+<select id="style">
+<option value="power">Power</option>
+<option value="speed">Speed</option>
+<option value="balanced">Balanced</option>
+</select>
+
+<br><br>
+
+<button onclick="recommend()" class="btn">Get Recommendation</button>
+
+<div id="result" class="container"></div>
+
+</section>
+
+<script src="js/selector.js"></script>
+
+</body>
+</html>
